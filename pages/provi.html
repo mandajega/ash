@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health care provider</title>
+
+    <!--================ style ==================-->
+    <link rel="stylesheet" href="../src/css/provi.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <img src="mom&me.jpg" alt="logo">
+                        </span>
+                        <span class="title1"><h1>Mom & Me</h1></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="clipboard-outline"></ion-icon>
+                        </span>
+                        <span class="title">Note</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </span>
+                        <span class="title">Contect</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                  <label>
+                    <input type="text" placeholder="Account">
+                    <img src="asq.jpg" alt="">
+                  </label>
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+
+                <a href="../pages/firstpage.html">
+                <div class="back-card">
+                    <div>
+                        <button class="back-button">Back</button>
+                    </div>
+                </div>
+                </a>
+  
+                <div class="head-card">
+                    <div>
+                        <div class="cardName">Planning for pregnancy</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- ================ Input & Output Details List ================= -->
+            <div class="row">
+
+                <div class="doctor">
+                    <div>
+                        <label for="doctors">Doctors:</label>
+                    </div>
+                    <div>
+                        <select name="doctors">
+                            <option value="Name">Name</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="spciality">
+                    <div>
+                        <label for="spciality">Spciality:</label>
+                    </div>
+                    <div>
+                        <select name="spciality ">
+                            <option value="Spciality">Spciality</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="details">
+                    <table>
+                        <tr>
+                          <th>Name</th>
+                          <th>Hospital</th>
+                          <th>Contact No</th>
+                        </tr>
+                        <tr>
+                          <td>Dr.Dharmathurai</td>
+                          <td>Delmon</td>
+                          <td>0112 558 800</td>
+                        </tr>
+                        <tr>
+                          <td>Dr.Raja</td>
+                          <td>Durdans</td>
+                          <td>0112 140 000
+                        </td>
+                        </tr>
+                        <tr>
+                          <td>Dr.Bandara</td>
+                          <td>ASIRI</td>
+                          <td>0114 665 500</td>
+                        </tr>
+                        <tr>
+                          <td>Dr.Piyumi</td>
+                          <td>Royal</td>
+                          <td>0114 000 100</td>
+                        </tr>
+                        <tr>
+                          <td>Dr.Aksaya</td>
+                          <td>Lanka</td>
+                          <td>0115 430 000</td>
+                        </tr>
+                        <tr>
+                          <td>Dr.Niro</td>
+                          <td>Nawaloka</td>
+                          <td>0115 577 111</td>
+                        </tr>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="../script/provi.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
